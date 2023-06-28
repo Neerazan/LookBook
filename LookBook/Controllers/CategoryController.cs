@@ -26,7 +26,7 @@ namespace LookBook.Controllers
         {
             if(obj.Name == obj.DisplayOrder.ToString())
             {
-                ModelState.AddModelError("Name", "The DispalyOrder cannot exactly match the name");
+                ModelState.AddModelError("Name", "The Display Order cannot exactly match the name");
             }
             if (ModelState.IsValid)
             {
