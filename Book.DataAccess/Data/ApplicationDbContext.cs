@@ -1,6 +1,7 @@
 ﻿using LookBook.Models;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace LookBook.Data
 {
     public class ApplicationDbContext : DbContext
